@@ -6,6 +6,7 @@
     "lib": [
       "esnext"
     ],
+    "types": ["jest", "node"],
     "target": "es2015",
     "outDir": "./lib",
     "removeComments": true,
@@ -15,6 +16,7 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "strict": true,
+    "noImplicitAny": false,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noImplicitReturns": true,
