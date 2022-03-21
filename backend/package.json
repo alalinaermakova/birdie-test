@@ -14,8 +14,7 @@
     "lint": "tslint --force --format verbose \"src/**/*.ts\"",
     "test": "jest",
     "test:watch": "jest --watch",
-    "dev": "nodemon",
-    "heroku-postbuild": "cd ../frontend && npm install && npm run build"
+    "dev": "nodemon"
   },
   "dependencies": {
     "cors": "^2.8.5",
