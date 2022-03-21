@@ -1,4 +1,4 @@
-import * as express from "express";
+import express from "express";
 import {pingController} from "./controllers/ping";
 const cors = require("cors");
 
