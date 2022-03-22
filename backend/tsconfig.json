@@ -20,11 +20,10 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true,
-    "esModuleInterop": true,
+    "noFallthroughCasesInSwitch": true
   },
   "include": [
-    "backend/src/**/*"
+    "src/**/*"
   ],
   "exclude": [
     "node_modules",
