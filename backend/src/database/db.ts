@@ -1,9 +1,12 @@
 const mysql = require('mysql')
+require('dotenv').config()
+
+
 const db = mysql.createConnection({
-    host: "birdie-test.cyosireearno.eu-west-2.rds.amazonaws.com",
-    user: "test-read",
-    password: "xnxPp6QfZbCYkY8",
-    database:"birdietest" 
+    host: process.env.DB_HOST,
+    user: process.env.DB_USER,
+    password: process.env.DB_PASSWORD,
+    database: process.env.DB_DATABASE 
 })
 
 export default db;
